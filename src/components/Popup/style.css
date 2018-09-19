@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+.comment-box {
+    margin-top: 40px;
+}
+
+.textfield {
+    margin-top: 20px;
+}

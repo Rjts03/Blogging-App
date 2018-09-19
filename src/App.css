@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  background-color: #E0E0E0;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 40s linear;
+  height: 60px;
+  width: 60px;
+}
+
+.status-bar {
+  background-color: #512DA8;
+  height: 50px;
+}
+
+.App-header {
+  background-color: #673ab7;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.app-logo-wrapper {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: bold normal 25px 'Roboto', sans-serif;
+  color: #ffffff;
+}
+
+.app-message {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: bold normal 25px 'Roboto';
+}
+
+.blog-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.blog-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.blog-content {
+  background-color: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 20px;
+  flex-shrink: 0;
+  min-width: 200px;
+  width: 30%;
+  height: 400px;
+  text-align: left;
+  padding: 20px;
+  font: normal 15px/200% 'Roboto', sans-serif;
+}
+
+.box-btns {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+
+.label {
+  font: bold normal 18px 'Roboto';
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

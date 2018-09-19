@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+.app-btn {
+    display: flex;
+}
+
+.app-btn button {
+    padding: 25px;
+}
